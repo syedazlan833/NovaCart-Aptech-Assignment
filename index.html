@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NovaCart - Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Open+Sans&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="https://www.freeiconspng.com/uploads/cart-icon-14.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="mainclassbetweennovacartnav">
+            <div>
+                <img class="carticon" src="https://www.freeiconspng.com/uploads/cart-icon-14.png" alt="">
+            </div>
+            <b>NovaCart</b>
+        </div>
+        </div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="about.html">About</a>
+            <a href="products.html">Products</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Discover Timeless Elegance, One Click at a Time</h1>
+        <button><a href="products.html">Explore Products</a></button>
+    </section>
+
+    <h1 class="famousbrands">Famous Brands</h1>
+    <section class="products">
+        <div class="card">
+            <img src="https://sellconnectug.com/wp-content/uploads/2024/09/1001851257.jpg" alt="Bag">
+            <h3>Leather Bag</h3>
+            <button onclick="showPopup('A premium vintage leather bag for all your essentials.')">View Details</button>
+        </div>
+        <div class="card">
+            <img src="https://www.shutterstock.com/image-photo/mens-brown-leather-moccasins-shoes-600nw-2478643723.jpg"
+                alt="Shoes">
+            <h3>Classic Shoes</h3>
+            <button onclick="showPopup('Comfort and class with every step you take.')">View Details</button>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1545239351-1141bd82e8a6" alt="Watch">
+            <h3>Retro Watch</h3>
+            <button onclick="showPopup('A timeless piece to complete your vintage look.')">View Details</button>
+        </div>
+        <div class="card">
+            <img src="https://i.pcmag.com/imagery/articles/00FCy6dyxPfzIPqyFtGtVyy-6..v1718627906.jpg"
+                alt="Vintage Camera" />
+            <h3>Vintage Camera</h3>
+            <button onclick="showPopup('A timeless piece to complete your vintage look.')">View Details</button>
+        </div>
+
+        <div class="card">
+            <img src="https://thumbs.dreamstime.com/b/stylish-black-leather-jacket-quilted-shoulders-men-s-fashion-apparel-high-quality-image-suitable-e-commerce-378277138.jpg"
+                alt="Leather Jacket" />
+            <h3>Leather Jacket</h3>
+            <button onclick="showPopup('A timeless piece to complete your classic look.')">View Details</button>
+        </div>
+
+        <div class="card">
+            <img src="https://www.shutterstock.com/image-photo/black-retro-hat-isolated-on-600nw-2094350095.jpg"
+                alt="Classic Hat" />
+            <h3>Classic Hat</h3>
+            <button onclick="showPopup('A timeless piece to complete your classic look.')">View Details</button>
+        </div>
+    </section>
+
+    <div class="popup" id="popup">
+        <div class="popup-content">
+            <p id="popup-text"></p>
+            <button onclick="closePopup()">Close</button>
+        </div>
+    </div>
+    <div class="aboutsectioninhome">
+        <h1>Discover the Heart of NovaCart</h1>
+        <button><a href="about.html">About us</a></button>
+    </div>
+
+    <footer>
+        © 2025 NovaCart | All Rights Reserved
+    </footer>
+
+</body>
+<script src="app.js"></script>
+
+</html>
